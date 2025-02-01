@@ -16,7 +16,12 @@ const Header = () => {
     <header className="fixed top-0 left-0 z-50 w-full py-10">
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="lg:hidden flex-1 cursor-pointer z-2">
-          <img src="/images/xora.svg" alt="logo" height={55} width={115} />
+          <img
+            src="/jsm_animated_page_1/images/xora.svg"
+            alt="logo"
+            height={55}
+            width={115}
+          />
         </a>
 
         <div
@@ -44,7 +49,7 @@ const Header = () => {
                     )}
                   >
                     <img
-                      src="/images/xora.svg"
+                      src="/jsm_animated_page_1/images/xora.svg"
                       alt="logo"
                       width={160}
                       height={55}
@@ -60,14 +65,14 @@ const Header = () => {
             </nav>
             <div className="lg:hidden block absolute top-1/2 left-0 w-[960px] h-[380px] translate-x-[-290px] -translate-y-1/2 rotate-90">
               <img
-                src="/images/bg-outlines.svg"
+                src="/jsm_animated_page_1/images/bg-outlines.svg"
                 width={960}
                 height={380}
                 alt="outline"
                 className="relative z-2"
               />
               <img
-                src="/images/bg-outlines-fill.png"
+                src="/jsm_animated_page_1/images/bg-outlines-fill.png"
                 width={960}
                 height={380}
                 alt="outline"
@@ -81,7 +86,9 @@ const Header = () => {
           onClick={() => setIsOpen((prevState) => !prevState)}
         >
           <img
-            src={`/images/${isOpen ? "close" : "magic"}.svg`}
+            src={`/jsm_animated_page_1/images/${
+              isOpen ? "close" : "magic"
+            }.svg`}
             alt="magic"
             className="size-1/2 object-contain"
           />

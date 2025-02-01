@@ -19,12 +19,14 @@ const Hero = () => {
               learn, and surprisingly powerful.
             </p>
             <Linkscroll to="feature" offset={-100} spy smooth>
-              <Button icon="/images/zap.svg">Try it now</Button>
+              <Button icon="/jsm_animated_page_1/images/zap.svg">
+                Try it now
+              </Button>
             </Linkscroll>
           </div>
           <div className="absolute -top-32 left-[calc(50%-340px)] w-[1230px] hero-img_res">
             <img
-              src="/images/hero.png"
+              src="/jsm_animated_page_1/images/hero.png"
               alt="hero"
               className="size-1230 max-lg:h-auto"
             />
